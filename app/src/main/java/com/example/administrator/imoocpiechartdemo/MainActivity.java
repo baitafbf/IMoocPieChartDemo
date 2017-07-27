@@ -5,6 +5,7 @@ import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.widget.Toast;
 
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
@@ -32,6 +33,7 @@ private String mJson="[{\"date\":\"2016年5月\",\"obj\":[{\"title\":\"外卖\",
         vpMain = ((ViewPager) findViewById(R.id.vp_main));
         initData();
         initView();
+        Toast.makeText(MainActivity.this,"BBBBB", Toast.LENGTH_LONG).show();
     }
 
     private void initData() {

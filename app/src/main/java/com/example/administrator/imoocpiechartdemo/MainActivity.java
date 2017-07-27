@@ -33,7 +33,7 @@ private String mJson="[{\"date\":\"2016年5月\",\"obj\":[{\"title\":\"外卖\",
         vpMain = ((ViewPager) findViewById(R.id.vp_main));
         initData();
         initView();
-        Toast.makeText(MainActivity.this,"aa",Toast.LENGTH_LONG).show();
+
     }
 
     private void initData() {
